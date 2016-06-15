@@ -32,7 +32,7 @@ class Smarty_Internal_Compile_Assign extends Smarty_Internal_CompileBase {
         $this->shorttag_order = array('var', 'value');
         $this->optional_attributes = array('scope');
         $_nocache = 'null';
-        $_scope = Smarty::SCOPE_LOCAL;
+        $_scope = Smarty::SCOPE_GLOBAL;
         // check and get attributes
         $_attr = $this->getAttributes($compiler, $args);
         // nocache ?
