@@ -1,6 +1,6 @@
 {
     "name": "resgen/smarty",
-    "type": "resgen-legacy-library",
+    "type": "vanilla-plugin",
     "description": "Smarty - the compiling PHP template engine",
     "version": "v3.1.14b",
     "keywords": ["templating"],
