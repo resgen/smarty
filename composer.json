@@ -2,7 +2,7 @@
     "name": "resgen/smarty",
     "type": "vanilla-plugin",
     "description": "Smarty - the compiling PHP template engine",
-    "version": "v3.1.14c",
+    "version": "v3.1.14.3",
     "keywords": ["templating"],
     "homepage": "http://www.smarty.net",
     "license": "LGPL-3.0",
