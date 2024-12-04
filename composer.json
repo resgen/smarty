@@ -1,8 +1,8 @@
 {
     "name": "resgen/smarty",
-    "type": "library",
+    "type": "vanilla-plugin",
     "description": "Smarty - the compiling PHP template engine",
-	"version": "v3.1.14b",
+    "version": "v3.1.14c",
     "keywords": ["templating"],
     "homepage": "http://www.smarty.net",
     "license": "LGPL-3.0",
@@ -26,7 +26,8 @@
         "forum": "http://www.smarty.net/forums/"
     },
     "require": {
-        "php": ">=5.2"
+        "php": ">=5.2",
+	"composer/installers": "~1.0"
     },
     "autoload": {
         "classmap": [
